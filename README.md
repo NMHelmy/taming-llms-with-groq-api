@@ -26,7 +26,9 @@ Bonus Challenges:<br>
   
   2. Install Dependencies<br>
   		- Run the following command to install the required Python libraries:<br>
-  		   #### ***pip install groq python-dotenv streamlit***
+  		   ```
+       		pip install groq python-dotenv streamlit
+       		```
   
   3. Set Up the .env File<br>
 	  - Create a .env file in the root directory of the project.<br>
@@ -35,11 +37,15 @@ Bonus Challenges:<br>
 
 ## Running the Script
   - To run the script and interact with the Groq API, execute the following command:<br>
-	#### ***python taming_llm.py***
+	```
+	python taming_llm.py
+	```
 
 ## Running the Streamlit App
   - To launch the Streamlit web interface, run:<br>
-    #### ***streamlit run taming_llm.py***
+	```
+  	streamlit run taming_llm.py
+  	```
   - Open your browser and navigate to the URL provided in the terminal (usually http://localhost:8501).<br>
   - Enter text in the input box and click the "Classify" button to see the results.<br>
 
